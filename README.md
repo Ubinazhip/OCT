@@ -12,14 +12,13 @@ UNet code was forked from https://github.com/milesial/Pytorch-UNet
 # Results:
 
 UNet: <br/>
-![github-small](unet_results.png | width = 50)
-
+<img src="unet_results.png" width="400" height="400" title="UNet">
 
 # Authors
 Arslan Gait - Computer Science, Nazarbayev University, arslan.gait@nu.edu.kz<br/>
 Aldiyar Bolatov - Department of Electrical and Computer Engineering, Nazarbayev University, aldiyar.bolatov@nu.edu.kz<br/>
 Aslan Ubingazhibov - Computer Science, Nazarbayev University, aslan.ubinagzhibov@nu.edu.kz <br/>
-Islambek Temirbek - Department of Electrical and Computer Engineering, Nazarbayev University, islambek.temirbek@nu.edu.kz<br/>
+Islambek Temirbek - Department of Electrical and Computer Engineering, Nazarbayev University,islambek.temirbek@nu.edu.kz<br/>
 
 # Reference
 Shah, Abhay, et al. "Multiple surface segmentation using convolution neural nets: application to retinal layer segmentation in OCT images." Biomedical optics express 9.9 (2018): 4509-4526.<br/>
