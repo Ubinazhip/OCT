@@ -1,6 +1,6 @@
 # UNet: semantic segmentation with PyTorch
 
-Customized implementation of the [U-Net](https://arxiv.org/abs/1505.04597) in PyTorch for 
+Customized implementation of the [U-Net](https://arxiv.org/abs/1505.04597) in PyTorch for Multiple Surface Segmentation of the Retinal Layer in OCT Images.
 
 This model was trained from scratch with 2600 images (no data augmentation) and scored a cross-entropy of 7e10-3.
 
