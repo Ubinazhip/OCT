@@ -21,5 +21,5 @@ Aslan Ubingazhibov - Computer Science, Nazarbayev University, aslan.ubinagzhibov
 Islambek Temirbek - Department of Electrical and Computer Engineering, Nazarbayev University, islambek.temirbek@nu.edu.kz<br/>
 
 # Reference
-Shah, Abhay, et al. "Multiple surface segmentation using convolution neural nets: application to retinal layer segmentation in OCT images." Biomedical optics express 9.9 (2018): 4509-4526.
+Shah, Abhay, et al. "Multiple surface segmentation using convolution neural nets: application to retinal layer segmentation in OCT images." Biomedical optics express 9.9 (2018): 4509-4526.<br/>
 Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015.
