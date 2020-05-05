@@ -94,7 +94,10 @@ def get_output_filenames(args):
 
 
 def mask_to_image(mask):
-    return Image.fromarray((mask * 255).astype(np.uint8))
+#     mask = mask.reshape(mask.shape[1],mask.shape[2])
+    transposed = mask.transpose((1, 2, 0))
+    return Image.fromarray(mask)
+#     return Image.fromarray((mask * 255).astype(np.uint8))
 
 
 if __name__ == "__main__":
@@ -102,7 +105,8 @@ if __name__ == "__main__":
     in_files = args.input
     out_files = get_output_filenames(args)
 
-    net = UNet(n_channels=3, n_classes=1)
+    #net = UNet(n_channels=3, n_classes=1)
+    net = UNet(n_channels=1, n_classes=3)
 
     logging.info("Loading model {}".format(args.model))
 
@@ -123,7 +127,8 @@ if __name__ == "__main__":
                            scale_factor=args.scale,
                            out_threshold=args.mask_threshold,
                            device=device)
-
+        print(mask.shape)
+        break
         if not args.no_save:
             out_fn = out_files[i]
             result = mask_to_image(mask)
