@@ -11,7 +11,8 @@ UNet code was forked from https://github.com/milesial/Pytorch-UNet
 
 # Results:
 
-UNet:
+UNet: <br/>
+![github-small](unet_results.png | width = 50)
 
 
 # Authors
